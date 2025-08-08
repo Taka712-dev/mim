@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Internet Money - The Wizard's Memecoin</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/mimcharacter2.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/mimcharacter2.png">
+    <link rel="apple-touch-icon" href="images/mimcharacter2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Kalam:wght@300;400;700&family=Caveat:wght@400;500;600;700&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Magical swirl cursor trail is created via JavaScript -->
+    
+    <!-- Floating sparkles -->
+    <div class="sparkles-container">
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+        <div class="sparkle"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="wizard-container">
+                <img src="images/mimcharacter.png" alt="Magic Internet Money Wizard" class="wizard-main floating">
+            </div>
+            <h1 class="hero-title glitch-effect">
+                <span class="magic-text">MAGIC INTERNET MONEY</span>
+            </h1>
+            <p class="hero-subtitle wobble">The most magical memecoin on Ethereum!</p>
+            
+            <!-- Social Buttons -->
+            <div class="social-buttons">
+                <a href="https://t.me/MIMTokenERC" target="_blank" class="btn btn-telegram hand-drawn-btn">
+                    <span>Telegram</span>
+                </a>
+                <a href="https://x.com/MIMTokenERC" target="_blank" class="btn btn-twitter hand-drawn-btn">
+                    <span>Twitter</span>
+                </a>
+                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x1234567890abcdef1234567890abcdef12345678" target="_blank" class="btn btn-dextools hand-drawn-btn">
+                    <span>DexTools</span>
+                </a>
+            </div>
+
+            <!-- Contract Address Button -->
+            <div class="contract-section">
+                <button class="contract-btn hand-drawn-btn" onclick="copyContract()">
+                    <span class="contract-label">Contract Address</span>
+                    <span class="contract-address" id="contractAddress">0xA088e44138a7E15B96a8fdbac66606d7D562a08b</span>
+                    <span class="copy-text">Click to Copy</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Floating characters -->
+        <img src="images/mimcharacter2.png" alt="Wizard 2" class="floating-char char-1">
+        <img src="images/mimcharacter3.png" alt="Wizard 3" class="floating-char char-2">
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title hand-drawn">About the Magic</h2>
+                <div class="magic-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="magical-text">
+                        Born from the legendary Bitcoin Wizard meme, Magic Internet Money brings the ancient art of digital wizardry to Ethereum!
+                    </p>
+                    <p class="magical-text">
+                        Our mystical token harnesses the power of memes, magic, and the blockchain to create something truly extraordinary.
+                    </p>
+                    <p class="magical-text">
+                        Join our coven of crypto wizards and experience the magic of decentralized internet money!
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <img src="images/mmimtext.png" alt="Magic Text" class="magic-logo pulse">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-container hand-drawn-border">
+                <video autoplay muted loop class="magic-video">
+                    <source src="images/magicinternetmoney.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title hand-drawn">Magical Gallery</h2>
+                <div class="magic-line"></div>
+            </div>
+            <div class="gallery-grid">
+                <!-- Images will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer/Socials -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">Join the Magic Circle</h3>
+                <div class="social-links">
+                    <a href="https://t.me/MIMTokenERC" target="_blank" class="social-link telegram">Telegram</a>
+                    <a href="https://x.com/MIMTokenERC" target="_blank" class="social-link twitter">Twitter</a>
+                    <a href="https://www.dextools.io/app/en/ether/pair-explorer/0x1234567890abcdef1234567890abcdef12345678" target="_blank" class="social-link dextools">DexTools</a>
+                </div>
+                <p class="footer-text">Magic Internet Money - Where memes meet magic</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
